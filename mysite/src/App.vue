@@ -1,30 +1,16 @@
 <template>
   <div id="app">
-<!--    <img src="./assets/logo.png">-->
-<!--    <HelloWorld/>-->
-    <users></users>
+    <!-- 路由占位符,对应的组件内容渲染到router-view中 -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import Users from "./components/Users";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
